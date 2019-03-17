@@ -2,6 +2,9 @@
 //时间复杂度 O(nlogn)
 //空间复杂度 O(n)
 //不是原地排序算法
+//稳定排序算法
+
+
 function merge(left,right) {
   var tem = [];
   while(left.length && right.length){
