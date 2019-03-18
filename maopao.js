@@ -1,6 +1,6 @@
-//冒泡算法
-//一次冒泡至少可以让一个元素到正确的位置上
-//空间复杂度O(1)  原地排序算法
+//Bubble Sort
+//Bubbling at least once returns an element to the correct position.
+//Space complexity O(1), In situ sort algorithms.
 //元素大小相等的时候不交换，所以是稳定算法
 //时间复杂度O(n^2)
 //可以优化的地方:当某次冒泡操作没有数据交换的时候，说明已经达到完全有序，不用再继续执行后续的冒泡操作
