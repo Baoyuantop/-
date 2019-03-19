@@ -1,18 +1,18 @@
-//快速排序
-//时间复杂度大部分情况下是O(nlogn),极端情况是O(n^2)
-//关键是合理的选择pivot
+//Quick sort.
+//Time complexity in most cases it is O(nlogn), the extreme case is O(n^2).
+//The key is to choose a reasonable pivot.
 
 function kuaipai(arr) {
   if(arr.length <= 1){
     return arr;
   }
-  //选择基准，并与原数组分离
+  //Selete the baseline and separate from the original array.
   var pivotIndex = Math.floor(arr.length/2);
   var pivot = arr.splice(pivotIndex,1)[0];
-  //用两个数组放一左一右两个子集
+  //Use two array, one left and one right, two subsets.
   var left =[];
   var right = [];
-  //遍历数组，小于基准的放左边，大于基准的放右边
+  //Traversing the array, less than the baseline to the left, greater than the baseline to the right.
   for(var i=0; i<arr.length; i++){
     if(arr[i]<pivot){
       left.push(arr[i]);
@@ -20,7 +20,7 @@ function kuaipai(arr) {
       right.push(arr[i]);
     }
   }
-  //使用递归重复调用
+  //Use recursive repeated calls.
   return kuaipai(left).concat([pivot],kuaipai(right));
 }
 

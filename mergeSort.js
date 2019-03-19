@@ -1,8 +1,8 @@
-//归并排序
-//时间复杂度 O(nlogn)
-//空间复杂度 O(n)
-//不是原地排序算法
-//稳定排序算法
+//Merge sort
+//Time complexity O(nlogn)
+//Space complexity O(n)
+//Not in situ sorting algorithm.
+//Stable sorting algorithm.
 
 
 function merge(left,right) {

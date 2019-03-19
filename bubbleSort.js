@@ -1,13 +1,14 @@
 //Bubble Sort
 //Bubbling at least once returns an element to the correct position.
 //Space complexity O(1), In situ sort algorithms.
-//元素大小相等的时候不交换，所以是稳定算法
-//时间复杂度O(n^2)
-//可以优化的地方:当某次冒泡操作没有数据交换的时候，说明已经达到完全有序，不用再继续执行后续的冒泡操作
+//If the elements are equal in size, they are not exchanged.
+//Time complexity O(n^2).
+//Where it can be optimized: When there is no data exchange for a bubbling operation, the description has reached order,  we will not
+//continue to perform subsequent bubbling operations.
 
 
 var arr = new Array(2,1,4,3,6,5);
-// 错误示例
+// Error example
 function maopao(arr) {
   if(arr.length<1){
     return
@@ -23,13 +24,13 @@ function maopao(arr) {
   return arr;
 }
 };
-//正确冒泡
+//Right example
 function sortarr(arr){
   if (arr.length <= 1) {
     return
   }
     for(i=0;i<arr.length-1;i++){
-      //提前退出冒泡循环标志位
+      //exit the bubbling cycle flag early
       let flag = false;
         for(j=0;j<arr.length-1-i;j++){
             if(arr[j]>arr[j+1]){
