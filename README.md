@@ -9,3 +9,4 @@
 
 - Binary tree
 1. [Basic content](binaryTree.md)
+2. [Red Black Tree](redBlackTree.md)
