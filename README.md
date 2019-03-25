@@ -7,7 +7,9 @@
 3. [Fast Sort](sort/quickSort.js)
 4. [Merge Sort](sort/mergeSort.js)
 
-- Binary tree
+- Tree
 1. [Basic content](tree/binaryTree.md)
 2. [Red Black Tree](tree/redBlackTree.md)
 3. [Recursion Tree](tree/recursionTree.md)
+4. [Heap](tree/heap.md)
+
