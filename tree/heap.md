@@ -30,3 +30,16 @@
 #### Compared to fast sorting defects
 1. Data has no local sequential access and is not friendly to CPU cache.
 2. For the same data, the heap sorting algorithm has more data exchanges than the quick sort in the sorting process. 
+
+
+#### Heap application
+
+##### Priority queue
+1. The highest priority first out queue.
+2. Queue using heap implementation.
+
+##### Top k
+
+#### Calculating the median
+
+
