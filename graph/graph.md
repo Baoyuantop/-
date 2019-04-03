@@ -14,3 +14,8 @@
 #### Adjacency List
 - Save space for storage but waste time when used.
 - Use hash table chain storage.
+
+#### Search
+##### Breadth-First-Search
+Find the closest to the starting vertex, then the next closest, and then search out.
+##### Depth-First-Search

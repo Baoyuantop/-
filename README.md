@@ -16,3 +16,8 @@
 - Graph
 1. [Basic content](graph/graph.md)
 
+- String matching
+1. [Brute Force](stringMatching/BF.md)
+2. [Rabin-Karp](stringMatching/RK.md)
+
+
