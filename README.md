@@ -7,6 +7,9 @@
 3. [Fast Sort](sort/quickSort.js)
 4. [Merge Sort](sort/mergeSort.js)
 
+- Hash Table
+1. [Hash Table](hashTable/hashTable.md)
+
 - Tree
 1. [Basic content](tree/binaryTree.md)
 2. [Red Black Tree](tree/redBlackTree.md)
